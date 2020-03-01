@@ -162,7 +162,7 @@ public class MarkAttendance extends Fragment {
             @Override
             public void onClick(View view) {
                 String password = et.getText().toString();
-                if (password.equals("1234567")) {
+                if (password.equals("PASSWORD")) {
                     for (i = 0; i < 9; i++) {
                         //check attendance
                         updateAttendance(i);
